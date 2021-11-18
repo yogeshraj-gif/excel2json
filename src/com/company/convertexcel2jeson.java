@@ -21,10 +21,10 @@ public class ConvertExcel2Json
 {
     public static void main(String[] args) {
         // Step 1: Read Excel File into Java List Objects
-        List students = readExcelFile("C:\\Users\\B Mahadev\\Desktop\\FileHandeling\\StudentExcel.xlsx");
+        List students = readExcelFile("C:\\Users\\yogesh\\Desktop\\FileHandeling\\StudentExcel.xlsx");
 
         // Step 2: Write Java List Objects to JSON File
-        writeObjects2JsonFile(students, "C:\\Users\\B Mahadev\\Desktop\\FileHandeling\\Student.json");
+        writeObjects2JsonFile(students, "C:\\Users\\yogesh\\Desktop\\FileHandeling\\Student.json");
 
         System.out.println("Done");
     }
